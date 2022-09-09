@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main -main block
+ * main - main block
  * Description: print letters in lowercase except q and e
  * Return: 0
  */
@@ -16,5 +16,6 @@ int main(void)
 		}
 		putchar(n);
 	}
+	putchar(10);
 	return (0);
 }
