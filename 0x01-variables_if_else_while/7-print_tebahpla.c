@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: print letters in reverse
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {
