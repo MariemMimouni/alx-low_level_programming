@@ -1,5 +1,5 @@
-#import <stdio.h>
-#import <cstdio.h>
+#include <stdio.h>
+#include <cstdio.h>
 /**
  * main -main block
  * Description: print lowercase letters 
