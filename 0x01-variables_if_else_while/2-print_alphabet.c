@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -main block
- * Description: print lowercase letters 
+ * Description: print lowercase letters
  * Return: 0
  */
 int main(void)
@@ -12,5 +12,6 @@ int main(void)
 	{
 		putchar (n);
 	}
+	putchar(10);
 	return (0);
 }
