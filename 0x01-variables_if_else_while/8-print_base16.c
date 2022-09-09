@@ -12,8 +12,7 @@ int main(void)
 	while (d <= '9')
 	{
 		putchar(d);
-		d++;
-											}
+		d++:									}
 	char c = 'a';
 
 	while (c <= 'f')
