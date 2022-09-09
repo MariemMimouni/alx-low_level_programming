@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cstdio>
 /**
  * main -main block
  * Description: print lowercase letters 
