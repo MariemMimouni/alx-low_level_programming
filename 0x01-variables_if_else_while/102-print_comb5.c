@@ -6,41 +6,40 @@
  */
 int main(void)
 {
-	int i1;
+	int a = 0;
 
-	int i2;
+	int b;
 
-	int j1;
+	int c;
 
-	int j2;
+	int d;
 
-	int x;
-
-	for (i1 = 48; i1 < 58; i1++)
+	while (a < 10)
 	{
-		for (i2 = 48; i2 < 58; i2++)
+		b = 0;
+		while (b < 10)
 		{
-			if (i2 == 57)
-				x = 48;
-			else
-				x = i2 + 1;
-			for (j1 = i1; j1 < 58; j1++)
+			c = 0;
+			while (d < 0)
 			{
-				for (j2 = x; j2 < 58; j2++)
+				if (!(a == c && b == d))
 				{
-					putchar(i1);
-					putchar(i2);
-					putchar(32);
-					putchar(j1);
-					putchar(j2);
-					if (i1 == 57 && i2 == 56)
-						break;
-					putchar(44);
-					putchar(32);
-					x = 48;
+					putchar('0' + a);
+					putchar('0' + b);
+					putchar(' ');
+					putchar('0' + c);
+					putchar('0' + d);
 				}
+				if (!(a + b == 18 && c + d == 17))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+				d++;
 			}
+			c++;
 		}
+		b++;
 	}
 	putchar(10);
 	return (0);
