@@ -15,7 +15,7 @@ void print_to_98(int n)
 		for (i = 98; i <= n; i++)
 		{
 			printf("%d", i);
-			if (i < 98)
+			if (i < n)
 			{
 				_putchar(',');
 				_putchar(' ');
