@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - mai block
- * Description: FizzBuzz
+ * main - main block
+ * Description: print FizzBuzz Fizz Buzz
  * Return: none
  */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 		else
 			printf("%d", i);
 		i++;
-		if (i < 100)
+		if (i <= 100)
 			putchar(' ');
 	}
 	putchar('\n');
