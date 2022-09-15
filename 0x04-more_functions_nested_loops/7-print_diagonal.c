@@ -5,15 +5,27 @@
  * Description: print diagonal length n
  * Return: none
  */
-void print_digital(int n)
+void print_diagonal(int n)
 {
-	int i = 0;
+	int i;
 
-	if (n != 0)
+	int j = 0;
+
+	if (n > 0)
 	{
-		while (i < n)
-			_putchar(' ');
-		_putchar('\');
+		while (j < n)
+		{
+			i = 0;
+			while (i < j)
+			{
+				_putchar(' ');
+				i++;
+			}
+			_putchar('\');
+			_putchar('\n');
+			j++;
+		}
 	}
-	_pucthar('\n');
+	else
+		_pucthar('\n');
 }
