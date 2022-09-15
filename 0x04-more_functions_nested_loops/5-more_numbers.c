@@ -25,6 +25,7 @@ void more_numbers(void)
 			i++;
 		}
 		j++;
-		_putchar('\n');
+		if (i < 14)
+			_putchar('\n');
 	}
 }
