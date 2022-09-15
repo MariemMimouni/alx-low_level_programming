@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: print FizzBuzz Fizz Buzz
- * Return: none
+ * Return: 0
  */
 int main(void)
 {
