@@ -15,4 +15,5 @@ void print_digital(int n)
 			_putchar(' ');
 		_putchar('\');
 	}
-	_pucthar('\n')
+	_pucthar('\n');
+}
