@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * int_strlen - block
+ * _strlen - block
  * Description: compute the length of a string
  * @s:  parameter of type pointer
  * Return: length of string
  */
-int int_strlen(char *s)
+int _strlen(char *s)
 {
 	int i = 0;
 
