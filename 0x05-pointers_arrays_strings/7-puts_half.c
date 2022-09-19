@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{
 		l++;
 	}
-	int half;
+	int half = 0;
 
 	int i;
 
