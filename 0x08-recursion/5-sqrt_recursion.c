@@ -1,11 +1,5 @@
 #include "main.h"
 /**
- * _sqrt_recursion - block
- * Description: natural square root of a number
- * @n: parameter
- * Return: int
- */
-/**
  * power_operation - returns the natural square root of a number.
  * @n: input number.
  * @c: iterator.
