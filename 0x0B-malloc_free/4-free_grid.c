@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * free_grid - free 2 dimentional grid
  * @grid: parameter1
