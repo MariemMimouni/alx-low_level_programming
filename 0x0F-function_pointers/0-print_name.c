@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * print_name block
+ * print_name - block
  * Description: print name
  * @name: parameter1
  * @f: paramter2 pointer to function
